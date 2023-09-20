@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
 body{
-    background-color: aquamarine;
+    background: radial-gradient(circle at center, red 0, blue, green 100%);
+    color: white;
 }
 
 div#form_fundo{
-    background-color: blue;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(45px);
+
+    
 }
